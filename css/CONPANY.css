@@ -1,0 +1,159 @@
+header{
+    display: flex;
+    background-image:  url(../img/IMG_2108.JPG);
+    background-size: 100%;
+    color: white;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.greeting{
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+}
+
+.greeting h1{
+    padding-right: 100px;
+    padding-top: 90px;
+}
+
+.greeting_text{
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.summary{
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+}
+
+.summary h1{
+    padding-right: 100px;
+    padding-top: 90px;
+}
+
+.summary_text{
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.origin{
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+   
+}
+
+.origin h1{
+    padding-right: 100px;
+    padding-top: 90px;
+}
+
+.origin_text{
+    padding-top: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+    margin-bottom: 100px;
+}
+
+.conpany_info{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table tr{
+    border-bottom: solid 2px white;
+  }
+  
+  table tr:last-child{
+    border-bottom: none;
+  }
+  
+  table th{
+    position: relative;
+    text-align: left;
+    width: 30%;
+    background-color: #d05652;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  table th:after{
+    display: block;
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top:calc(50% - 10px);
+    right:-10px;
+    border-left: 10px solid #d05652;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  
+  table td{
+    text-align: left;
+    width: 70%;
+    text-align: center;
+    background-color: #eee;
+    padding: 10px 0;
+  }
+
+  .menu{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin: auto;
+}
+
+.about {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+    width: 20%;
+}
+.about h1 {
+    margin: 0; 
+    padding: 20px;
+    font-size: 20px;
+}
+
+.service {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+    width: 20%;
+}
+.service h1 {
+    margin: 0; 
+    padding: 20px;
+    font-size: 20px;
+}
+
+.news {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 3px #000000;
+    width: 20%;
+}
+.news h1 {
+    margin: 0; 
+    padding: 20px;
+    font-size: 20px;
+}

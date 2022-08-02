@@ -1,0 +1,137 @@
+  header {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 300px;; */
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    position: fixed; 
+    box-sizing: border-box;
+    padding: 0 50px;
+    top: 0;
+
+  }
+
+  .message{
+    font-size: 70px;
+    background-image: url(../img/IMG_2108.JPG);
+    background-size: 100%;
+     width: auto;
+    height: 100%;
+    color: aliceblue;
+   }
+  
+  ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 25px;
+  }
+
+main{
+   margin-top: 120px; 
+}
+
+.explain{
+    color:aliceblue;
+    background-color: black;
+    text-align: center;
+  
+}
+  
+  /* service,media */
+.contents {
+    width: 80%;
+    /* text-align: center; */
+    margin-top: 100px;
+    
+}
+
+.contents_serv{
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+
+}
+
+/* .serv{
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+} */
+
+.serv_exp{
+  width: auto;
+
+}
+
+.contents_medi{
+  width: auto;
+  display: flex;
+  text-align: center;
+}
+
+.contents h1{
+  font-size: 50px;
+}
+
+.contents h2{
+  font-size: 30px;
+}
+
+.medi{
+  float: left;
+}
+
+.serve_exp{
+    float: right;
+}
+
+.serve_exp h1 {
+    text-align: left;
+}
+
+.box{
+  display:flex;
+  justify-content: center;
+}
+
+.box_about{
+  width:100px;
+  border: solid 3px #000000;
+  background-color: #ccc;
+  }
+
+.box_service{
+  width:100px;
+  border: solid 3px #000000;       
+  background-color: #ccc;  
+  }
+.box_news{
+  width:100px;    
+  border: solid 3px #000000;     
+  background-color: #ccc; 
+  }
+
+  .box p{
+    width: auto;
+  }
+
+  .contact{
+  font-size: 20px;   
+  text-align: center;
+  }
+
+  .box_contact{
+    width:100px;  
+    margin: 0 auto;
+    border: solid 3px #000000;     
+    background-color: #ccc; 
+    }
+
+    .footer{
+      background-color: gray;
+    }
