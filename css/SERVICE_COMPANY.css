@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+* {
+    margin:0;
+    padding:0;
+    }
+  
+/* header */
+
+header{
+    display: flex;
+    background-image:  url(../img/IMG_2108.JPG);
+    background-size: 100%;
+    color: white;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+
+
+header h1{
+    padding-left: 5%;
+}
+
+/* main */
+
+/* 就活の良くある悩み */
+
+.worry{
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+}
+
+.worry_img{
+    padding-right: 50px;
+}
+
+.worry_text{
+    font-size: 20px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.worry_text p{
+    font-size: 30px;
+}
+
+/* ウェルハンティング */
+
+.wh{
+    display: flex;
+    justify-content:center;
+    margin-top: 100px;
+}
+
+.wh_img{
+    padding-left: 50px;
+}
+
+.wh_text{
+    font-size: 20px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.wh_text p{
+    font-size: 30px;
+}
+
+/* 満足度 */
+
+
+.evaluation{
+    padding-top: 50px;
+}
+
+.evaluation_text{
+    background-color: rgb(244, 161, 161);
+    height: 80px;
+
+}
+
+.evaluation_text p{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.evaluation_img{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.voice u{
+    padding-left: 5%;
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+
