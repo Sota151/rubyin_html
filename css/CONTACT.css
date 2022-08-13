@@ -1,0 +1,27 @@
+* {
+    margin:0;
+    padding:0;
+    }
+  
+/* header */
+
+/* header{
+    display: flex;
+    background-image:  url(../img/IMG_2108.JPG);
+    background-size: 100%;
+    color: white;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+
+
+header h1{
+    padding-left: 5%;
+} */
+
+
+main{
+    text-align: center;
+    padding-top: 50px;
+}
