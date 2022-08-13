@@ -1,3 +1,8 @@
+* {
+    margin:0;
+    padding:0;
+    }
+
 header{
     display: flex;
     background-image:  url(../img/IMG_2108.JPG);
@@ -7,3 +12,10 @@ header{
     width: 100%;
     height: 100px;
 }
+
+header h1{
+    padding-left: 5%;
+}
+
+
+
