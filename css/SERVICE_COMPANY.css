@@ -102,7 +102,7 @@ header h1{
 .voice_sample{
     display: flex;
     justify-content: center;
-    width: 80%;
+    padding-top: 50px;
 }
 
 .voice_sample p{
@@ -111,14 +111,392 @@ header h1{
 }
 
 .voice1 {
-    padding-top: 50px;
+  padding-top: 20px;
   width: 300px;
-  height: 150px;
-  line-height: 100px;
-  background-color: green;
+  height: 120px;
+  background-color: rgb(244, 161, 161);
   border-radius: 50%;
   color: #fff;
   text-align: center;
   line-height: 30px;
   }
 
+  .voice2 {
+    padding-top: 20px;
+    width: 300px;
+    height: 120px;
+    background-color: rgb(244, 161, 161);
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    }
+
+  .voice3 {
+    padding-top: 20px;
+    width: 300px;
+    height: 120px;
+    background-color: rgb(244, 161, 161);
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    }
+
+
+  
+    .step{
+        padding-top: 50px;
+    }
+    
+    .step_text{
+        background-color: rgb(244, 161, 161);
+        height: 80px;
+    
+    }
+    
+    .step_text p{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .step1{
+        padding-left: 5%;
+        padding-top: 20px;
+
+    }
+
+    .step1 p{
+        font-size: 30px;
+    }
+    
+    .step1_exp{
+        display: flex;
+        padding-top: 50px;
+        justify-content: center;
+    }
+    
+    .step1_text{
+        padding-top: 100px;
+        padding-right: 50px;
+    }
+
+    .step1_img{
+        padding-left: 50px;
+    }
+
+    .step1_text{
+        font-size: 15px;
+    }
+
+    .step1_text p{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    /* step2 */
+
+.step2_text p{
+    font-size: 30px;
+    padding-left: 5%;
+}
+
+.step2_time{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.opening {
+    background:black;
+    color:#ffffff; 
+    padding:10px;
+    height: 20px;
+    width: 25%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    }
+.opening p {
+    padding: 0;
+    margin: 0;
+    }
+
+
+
+.mainpart {
+    background:black; 
+    color:#ffffff; 
+    padding:10px;
+    height: 20px;
+    width: 50%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    }
+.mainpart p {
+    padding: 0;
+    margin: 0;
+    }
+
+.ending {
+    background:black;
+    color:#ffffff; 
+    padding:10px;
+    height: 20px;
+    width: 25%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    }
+.ending p {
+    padding: 0;
+    margin: 0;
+    }
+    
+.step2_box{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.step2_box1{
+    width: 20%;
+    height: 100px;
+    padding: 0.5em 1em;
+    margin: auto;
+    color: black;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 9px;
+}
+.step2_box1 p {
+
+    text-align: center;
+    padding-top: 35px;
+    
+}
+
+.step2_box2{
+    width: 45%;
+    height: 100px;
+    padding: 0.5em 1em;
+    margin: auto;
+    color: black;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 9px;
+}
+.step2_box2 p {
+
+    text-align: center;
+    padding-top: 35px;
+    
+}
+
+.step2_box3{
+    width: 20%;
+    height: 100px;
+    padding: 0.5em 1em;
+    margin: auto;
+    color: black;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 9px;
+}
+.step2_box3 p {
+
+    text-align: center;
+    padding-top: 25px;
+    
+}
+
+.contents_exp{
+    font-size: 10px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+
+.step3 p{
+    font-size: 30px;
+    padding-left: 5%;
+}
+
+.step3_time{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.step3_time p{
+    font-size: 15px;
+}
+
+.min2{
+    padding-left: 400px;
+}
+
+.min3{
+    padding-left: 600px;
+}
+
+.step3_band{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center; 
+    padding-bottom: 10px;  
+}
+
+.step3_band p{
+    font-size: 15px;
+}
+
+.band1{
+    background:black;
+    color:#ffffff; 
+    padding:10px;
+    height: 20px;
+    width: 400px;
+    }
+.opening p {
+    padding: 0;
+    margin: 0;
+    }
+
+.band2{
+    background:black;
+    color:#ffffff; 
+    padding:10px;
+    height: 20px;
+    width: 700px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    }
+.opening p {
+    padding: 0;
+    margin: 0;
+    }
+
+.step3_exp{
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center; 
+    padding-bottom: 100px;  
+}
+
+.step3_exp p {
+
+    text-align: center;
+    font-size: 12px;
+    
+}
+
+.exp1{
+    width: 400px;
+    height: 350px;
+    padding: 0.5em 1em;
+    color: black;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 9px;
+    margin-right: 50px;
+}
+
+.exp2{
+    width: 600px;
+    height: 350px;
+    padding: 0.5em 1em;
+    color: black;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 9px;
+}
+
+.contact_box a {
+    text-decoration: none;
+  }
+  
+  .contact_box{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    text-align: center;
+    font-weight: bold;
+    width: 15%;
+    margin: auto;
+    color: #333;
+    line-height: 2.3;
+    background-color: #f4eeef;
+    border: solid 2px #333;
+  }
+
+  .contact_box p{
+    font-size: 20px;
+  }
+  
+  
+  .contact_box:hover {
+    background-color: #a89e9d; 
+    color: #000000;
+    cursor: pointer;
+  }
+
+  main{
+    padding-bottom: 100px;
+}
+
+
+/************fotter*****************/
+
+.FooterSection {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: #928f8d;
+    text-align: center;
+  }
+  
+  .Footer-Inner {
+    margin: auto;
+  }
+  .Footer-Inner-Logo {
+    margin: auto;
+    width: 64px;
+  
+  }
+  
+  .Footer-Inner-List {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Footer-Inner-List-Item {
+    margin-right: 8px;
+    padding-left: 16px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none; /*b*/
+  }
+  
+  .Footer-Inner-List-Item:not(:first-child) {
+    border-left: 1px solid #fff;
+  }
+  
+  .Footer-Inner-CopyRight {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+  }
