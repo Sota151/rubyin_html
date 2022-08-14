@@ -17,5 +17,163 @@ header h1{
     padding-left: 5%;
 }
 
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
 
+.news {
+  padding: 50px 0;
+  background: #FFF7EA;
+}
+
+
+.inner {
+  width: 80%;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 65px 0 100px;
+}
+
+
+.sub_ttl {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* ここからがニュース記事のCSS */
+
+.news_list {
+  margin: 0 5%;
+}
+
+.news_list_item {
+  padding: 30px 0;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+.news_list_item:first-child {
+  border-top: 1px solid #E6E6E6;
+}
+.news_list_item a {
+ position: relative;
+ display: flex;
+ padding-right: 30px;
+}
+
+.news_list_date {
+  font-size: 15px;
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+}
+
+.news_item {
+  background: #F6C6A2;
+  border-radius: 14px;
+  width: 6em;
+  /* 親要素の文字サイズを基準 */
+  text-align: center;
+  margin-left: 20px;
+}
+
+.arrow {
+  width: 25px;
+  height: 1px;
+  background: #707070;
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+.arrow::after {
+  content: "";
+  display: block;
+  width: 6px;
+  height: 1px;
+  background: #707070;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 0px;
+  bottom: 2px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .news_list_item a {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .news_list_item a  {
+        font-size: 14px;
+    }
+
+
+}
+@media screen and (max-width: 480px) {
+    .arrow {
+        display: none;
+    }
+    .news_list_item a {
+        padding-right: 0;
+    }
+}
+
+/************fotter*****************/
+
+.FooterSection {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: #928f8d;
+    text-align: center;
+  }
+  
+  .Footer-Inner {
+    margin: auto;
+  }
+  .Footer-Inner-Logo {
+    margin: auto;
+    width: 64px;
+  
+  }
+  
+  .Footer-Inner-List {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .Footer-Inner-List-Item {
+    margin-right: 8px;
+    padding-left: 16px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none; /*b*/
+  }
+  
+  .Footer-Inner-List-Item:not(:first-child) {
+    border-left: 1px solid #fff;
+  }
+  
+  .Footer-Inner-CopyRight {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+  }
