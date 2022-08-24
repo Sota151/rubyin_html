@@ -59,6 +59,7 @@ header h1{
     margin: 20px auto;
     width: 60%;
     text-align: center;
+    color: black;
   }
   
   .item:hover {
