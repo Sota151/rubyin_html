@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    background-image: url(../img/IMG_2108.JPG);
+    background-size: 100%;
+    color: white;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+
+header h1 {
+    padding-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 40px;
+    font-family: 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', 'Yu Mincho Light', 'YuMincho', 'Yu Mincho', '游明朝体', serif;
+}
+
+main h2 {
+    padding-left: 15%;
+    padding-top: 100px;
+}
+
+.title {
+    border-bottom: solid 4px #E73562;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.what_message{
+    margin: 50px 15%;
+}
+
+.what_message p {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 20px;
+}
+
+.what_img {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.schedule_message {
+    margin: 50px 15%;
+}
+
+.schedule_message p {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 20px;
+}
+
+.schedule_img {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.when_message {
+    margin: 50px 15%;
+}
+
+.when_message p {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-size: 20px;
+}
+
+.when_img {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    margin: auto;
+}
+
+.contact_student {
+    padding: 2em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    border: solid 2px #000000;
+    width: 15%;
+}
+
+.contact_student a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Yu Gothic UI', sans-serif;
+}
+
+/* マウスオーバー時 */
+.contact_student:hover {
+    color: #ffffff;
+    background-color: #928f8d;
+    cursor: pointer;
+}
+
+/**********footer*********/
+
+.FooterSection {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: #928f8d;
+    text-align: center;
+}
+
+.Footer-Inner {
+    margin: auto;
+}
+
+.Footer-Inner-Logo {
+    margin: auto;
+    width: 64px;
+}
+
+.Footer-Inner-List {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer-Inner-List-Item {
+    margin-right: 8px;
+    padding-left: 16px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.Footer-Inner-List-Item:not(:first-child) {
+    border-left: 1px solid #fff;
+}
+
+.Footer-Inner-CopyRight {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
