@@ -1,6 +1,12 @@
-header{
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
     display: flex;
-    background-image:  url(../img/IMG_2108.JPG);
+    background-image: url(../img/IMG_2108.JPG);
     background-size: 100%;
     color: white;
     top: 0;
@@ -8,201 +14,268 @@ header{
     height: 100px;
 }
 
-header h1{ /*b*/
+header h1 {
     padding-left: 5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 45px;
+    font-family: 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', 'Yu Mincho Light', 'YuMincho', 'Yu Mincho', '游明朝体', serif;
 }
 
-.greeting{
+main {
+    background-color: #f1e6e9;
+}
+
+.greeting {
     display: flex;
-    justify-content:center;
-    margin-top: 100px;
+    justify-content: center;
+    padding-top: 100px;
 }
 
-.greeting h1{
+.greeting h2 {
     padding-right: 100px;
     padding-top: 90px;
 }
 
-.greeting_text{
+.greeting_text {
     padding-top: 100px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
-.summary{
+.summary {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin-top: 100px;
 }
 
-.summary h1{
+.summary h2 {
     padding-right: 100px;
     padding-top: 90px;
 }
 
-.summary_text{
+.summary_text {
     padding-top: 100px;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
-.origin{
+.origin {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     margin-top: 100px;
-   
+
 }
 
-.origin h1{
+.origin h2 {
     padding-right: 100px;
     padding-top: 90px;
 }
 
-.origin_text{
-    padding-top: 100px;
-    padding-left: 120px;
-    padding-right: 120px;
-    margin-bottom: 100px;
+.origin_text {
+    padding: 100px 20%;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
-.conpany_info{
+.conpany_info {
     text-align: center;
     margin-bottom: 100px;
 }
 
+/**********table*********/
 
-table{
-    width: 100%;
+table {
+    width: 75%;
     border-collapse: collapse;
-  }
-  
-  table tr{
-    border-bottom: solid 2px white;
-  }
-  
-  table tr:last-child{
+    margin: auto;
+    margin-top: 20px;
+}
+
+table tr {
+    border-bottom: solid 2px #f1e6e9;
+}
+
+table tr:last-child {
     border-bottom: none;
-  }
-  
-  table th{
+}
+
+table th {
     position: relative;
     text-align: left;
-    width: 30%;
-    background-color: #d05652;
+    width: 20%;
+    background-color: #db807d;
     color: white;
     text-align: center;
     padding: 10px 0;
-  }
-  
-  table th:after{
+}
+
+table th:after {
     display: block;
     content: "";
     width: 0px;
     height: 0px;
     position: absolute;
-    top:calc(50% - 10px);
-    right:-10px;
-    border-left: 10px solid #d05652;
+    top: calc(50% - 10px);
+    right: -10px;
+    border-left: 10px solid #db807d;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-  }
-  
-  table td{
+}
+
+table td {
     text-align: left;
     width: 70%;
-    text-align: center;
-    background-color: #eee;
+    text-align: left;
+    background-color: #eeecec;
     padding: 10px 0;
-  }
+    padding-left: 50px;
+    color: #333;
+}
 
-  .menu{
+table td a {
+    color: #333;
+}
+
+/**********menu*********/
+
+.menu {
     display: flex;
     text-align: center;
     justify-content: center;
     margin-top: 50px;
+    padding-bottom: 100px;
     margin: auto;
 }
 
 .about {
-    padding: 0.5em 1em;
+    padding: 2em 1em;
     margin: 2em 0;
     font-weight: bold;
     border-top: solid 2px #000000;
     border-bottom: solid 2px #000000;
     border-left: solid 2px #000000;
     border-right: solid 1px #000000;
-    width: 20%;
+    background-color: #fbf8f9;
+    width: 15%;
 }
-.about h1 {
-    margin: 0; 
+
+.about a {
+    margin: 0;
     padding: 20px;
     font-size: 20px;
-}
-.about h1 a{/*b*/
-    text-decoration: none; /*下線を消したい*/
+    text-decoration: none;
     color: #333;
-    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Yu Gothic UI',sans-serif;
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Yu Gothic UI', sans-serif;
 }
 
 .service {
-    padding: 0.5em 1em;
+    padding: 2em 1em;
     margin: 2em 0;
     font-weight: bold;
     border-top: solid 2px #000000;
     border-bottom: solid 2px #000000;
     border-left: solid 1px #000000;
     border-right: solid 1px #000000;
-    width: 20%;
+    background-color: #fbf8f9;
+    width: 15%;
 }
-.service h1 {
-    margin: 0; 
+
+.service a {
+    margin: 0;
     padding: 20px;
     font-size: 20px;
-}
-.service h1 a{/*b*/
-    text-decoration: none; /*下線を消したい*/
+    text-decoration: none;
     color: #333;
-    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Yu Gothic UI',sans-serif;
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Yu Gothic UI', sans-serif;
 }
 
 .news {
-    padding: 0.5em 1em;
+    padding: 2em 1em;
     margin: 2em 0;
     font-weight: bold;
     border-top: solid 2px #000000;
     border-bottom: solid 2px #000000;
     border-left: solid 1px #000000;
     border-right: solid 2px #000000;
-    width: 20%;
+    background-color: #fbf8f9;
+    width: 15%;
 }
-.news h1 {
-    margin: 0; 
+
+.news a {
+    margin: 0;
     padding: 20px;
     font-size: 20px;
-}
-.news h1 a{/*b*/
-    text-decoration: none; /*下線を消したい*/
+    text-decoration: none;
     color: #333;
-    font-family: 'Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','Yu Gothic UI',sans-serif;
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Yu Gothic UI', sans-serif;
 }
 
 .about:hover {
     background-color: #cacaca;
-    /*b*/
     color: #000000;
     cursor: pointer;
 }
 
 .service:hover {
     background-color: #cacaca;
-    /*b*/
     color: #000000;
     cursor: pointer;
 }
 
 .news:hover {
     background-color: #cacaca;
-    /*b*/
     color: #000000;
     cursor: pointer;
+}
+
+/**********footer*********/
+
+.FooterSection {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: #928f8d;
+    text-align: center;
+}
+
+.Footer-Inner {
+    margin: auto;
+}
+
+.Footer-Inner-Logo {
+    margin: auto;
+    width: 64px;
+}
+
+
+.Footer-Inner-List {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer-Inner-List-Item {
+    margin-right: 8px;
+    padding-left: 16px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.Footer-Inner-List-Item:not(:first-child) {
+    border-left: 1px solid #fff;
+}
+
+.Footer-Inner-CopyRight {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
 }
