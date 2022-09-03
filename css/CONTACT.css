@@ -5,7 +5,7 @@
   
 /* header */
 
-/* header{
+header{
     display: flex;
     background-image:  url(../img/IMG_2108.JPG);
     background-size: 100%;
@@ -18,7 +18,7 @@
 
 header h1{
     padding-left: 5%;
-} */
+}
 
 
 main{
