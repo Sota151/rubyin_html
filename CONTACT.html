@@ -5,17 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="css/CONTACT.css">
 
 </head>
 <body>
     <header>
         <!-- <h1>お問い合わせ</h1> -->
+        <div class="pc-menu">
+          <nav>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Company</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+    
+        <div class="sp-menu">
+          <span class="material-icons" id="open">menu</span>
+        </div>
     </header>
+
+    <div class="overlay">
+      <span class="material-icons" id="close">close</span>
+      <nav>
+        <ul>
+          <li><a href="#">Top</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Company</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">News</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  
     <main>
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfkBMrtjPsZ0STSK9N3si8Q8YZkhIs-rsgpFcL4N1QRtGsBhQ/viewform?embedded=true" width="800" height="800" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>  
     </main>
         
-    
+    <script src="menu.js"></script>
 </body>
 </html>
