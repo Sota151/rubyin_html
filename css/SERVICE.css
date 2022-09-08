@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 header {
@@ -22,6 +23,114 @@ header h1 {
     font-size: 40px;
     font-family: 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', 'Yu Mincho Light', 'YuMincho', 'Yu Mincho', '游明朝体', serif;
 }
+
+
+/* ハンバーガーメニュー */
+.sp-menu {
+  margin-left: auto;
+}
+
+.sp-menu #open {
+  font-size: 45px;
+  line-height: 64px;
+  cursor: pointer;
+}
+
+.sp-menu #open.hide {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.95);
+  text-align: center;
+  padding: 64px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .6s;
+  font-family: 'Bodoni 72','Times New Roman',serif;
+}
+
+.overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.overlay #close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.overlay ul {
+  font-size: 24px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.overlay li {
+  margin-top: 48px;
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .3s, transform .3s;
+}
+
+.overlay a{
+  color:black;
+}
+
+.overlay a:hover{
+    text-decoration: underline;
+  }
+
+.overlay.show li {
+  opacity: 1;
+  transform: none;
+}
+
+.pc-menu {
+  display: none;
+}
+/* 1000px以上で表示されるメニューバー */
+/* @media (min-width: 1000px) {
+  .pc-menu {
+    display: block;
+    margin-left: auto;
+  }
+
+  .pc-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 20px;
+    display: flex;
+    font-size: 24px;
+  }
+
+  .pc-menu a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 120px;
+    line-height: 64px;
+    text-align: center;
+  }
+
+  .pc-menu a:hover {
+    opacity:0.5;
+  }
+
+  .sp-menu {
+    display: none;
+  }
+} */
 
 main h2 {
     padding-left: 15%;
