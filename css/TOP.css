@@ -10,8 +10,12 @@ header {
   width: 100%;
   padding: 0;
   top: 0;
-  background-image: url(../img/IMG_2108.JPG);
-  background-size: 100%;
+  background-image: url(../img/IMG_2108.png);
+  /* background-size: 100%; */
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  background-size: cover;;
 }
 
 .title img {
@@ -444,4 +448,127 @@ nav ul li:not(:first-child) {
   text-align: center;
   color: #fff;
   font-size: 16px;
+}
+
+/*************スマホ*************/
+
+@media screen and (max-width:900px) {
+  .title {
+    padding-top: 10px;
+  }
+
+  .title img {
+    width: 200px;
+  }
+
+  .nav-menu {
+    display: none;
+    /*ハンバーガーメニューにする*/
+  }
+
+  .message {
+    font-size: 5.5vw;
+  }
+
+  /********explain***********/
+
+  .explain_message {
+    font-size: 3.7vw;
+  }
+
+  .explain_box a {
+    font-size: 1.7vw;
+  }
+
+  /**********Service*********/
+
+  .serv {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .serv_title {
+    font-size: 50px;
+  }
+
+  .serv p {
+    font-size: 12px;
+  }
+
+  .serv_element {
+    /* display: block; */
+    margin: auto 15%;
+  }
+
+  .serv_element img {
+    width: 100%;
+    margin: 0 auto auto 0;
+  }
+
+  .serv_exp {
+    width: 100%;
+  }
+
+  .serv_exp h3 {
+    padding-top: 30px;
+  }
+
+  .serv_exp p {
+    padding: 0%;
+  }
+
+  .serv_box a {
+    font-size: 1.5vw;
+  }
+
+  /**********Media*********/
+
+  .media {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .media_title {
+    font-size: 50px;
+  }
+
+  .media_element {
+    /* display: block; */
+    margin: auto 15%;
+  }
+
+  .media_exp {
+    margin: 30px auto;
+  }
+
+  .media_element img {
+    width: 100%;
+  }
+
+  .media_box a {
+    font-size: 1.5vw;
+  }
+
+  .menu {
+    font-size: 3px;
+  }
+
+  .about {
+    width: fit-content;
+  }
+
+  .service {
+    width: fit-content;
+  }
+
+  .news {
+    width: fit-content;
+  }
+
+  /************fotter*****************/
+
+  .Footer-Inner-List-Item {
+    display: block;
+    margin-bottom: 5px;
+  }
 }
