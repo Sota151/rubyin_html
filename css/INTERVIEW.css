@@ -233,3 +233,51 @@ section {
   color: #fff;
   font-size: 16px;
 }
+
+/**********スマホ*********/
+
+@media screen and (max-width:900px) {
+  header h1 {
+    font-size: 35px;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .container h2 span {
+    border-bottom: solid 4px #E73562;
+    font-size: 25px;
+  }
+
+  .contents {
+    width: 90%;
+    margin: 10px 10%;
+  }
+
+  .contents img {
+    display: block;
+    margin: 10px auto;
+    width: 60%;
+    height: 100px;
+  }
+
+  .item {
+    width: 90%;
+    margin: 60px 0;
+    text-align: center;
+  }
+
+  .item p {
+    margin: 20px auto;
+    width: 80%;
+    color: #333;
+  }
+
+  /**********footer*********/
+
+  .Footer-Inner-List-Item {
+    display: block;
+    margin-bottom: 5px;
+  }
+}

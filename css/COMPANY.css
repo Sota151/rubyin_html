@@ -386,3 +386,179 @@ table td a {
     color: #fff;
     font-size: 16px;
 }
+
+/**********スマホ*********/
+
+@media screen and (max-width:900px) {
+    header h1 {
+        font-size: 35px;
+    }
+
+    main {
+        font-size: 14px;
+    }
+
+    .greeting {
+        display: block;
+        padding-top: 50px;
+        padding-left: 10%;
+    }
+
+    .greeting img {
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    .greeting_text {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+    }
+
+    .summary {
+        display: block;
+        padding-top: 100px;
+        padding-left: 10%;
+    }
+
+    .summary img {
+        width: 90%;
+        margin: 25px auto;
+    }
+
+    .summary_text {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+    }
+
+    .origin {
+        display: block;
+        padding-top: 100px;
+        padding-left: 10%;
+    }
+
+    .origin img {
+        width: 60%;
+    }
+
+    .origin_text {
+        padding-left: 10%;
+        padding-right: 10%;
+        font-family: 'Zen Kaku Gothic New', sans-serif;
+    }
+
+    .conpany_info {
+        text-align: center;
+        margin: 100px auto;
+    }
+
+    /**********table*********/
+
+    table {
+        font-size: 10px;
+    }
+
+    table td {
+        padding-left: 30px;
+    }
+
+    /**********menu*********/
+
+    .menu {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;
+        padding-bottom: 100px;
+        margin: auto;
+    }
+
+    .about {
+        padding: 2em 1em;
+        margin: 2em 0;
+        font-weight: bold;
+        border-top: solid 2px #000000;
+        border-bottom: solid 2px #000000;
+        border-left: solid 2px #000000;
+        border-right: solid 1px #000000;
+        background-color: #fbf8f9;
+        width: 15%;
+    }
+
+    .about a {
+        margin: 0;
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+        color: #333;
+        font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Yu Gothic UI', sans-serif;
+    }
+
+    .service {
+        padding: 2em 1em;
+        margin: 2em 0;
+        font-weight: bold;
+        border-top: solid 2px #000000;
+        border-bottom: solid 2px #000000;
+        border-left: solid 1px #000000;
+        border-right: solid 1px #000000;
+        background-color: #fbf8f9;
+        width: 15%;
+    }
+
+    .service a {
+        margin: 0;
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+        color: #333;
+        font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Yu Gothic UI', sans-serif;
+    }
+
+    .news {
+        padding: 2em 1em;
+        margin: 2em 0;
+        font-weight: bold;
+        border-top: solid 2px #000000;
+        border-bottom: solid 2px #000000;
+        border-left: solid 1px #000000;
+        border-right: solid 2px #000000;
+        background-color: #fbf8f9;
+        width: 15%;
+    }
+
+    .news a {
+        margin: 0;
+        padding: 20px;
+        font-size: 20px;
+        text-decoration: none;
+        color: #333;
+        font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'Yu Gothic UI', sans-serif;
+    }
+
+    .about:hover {
+        background-color: #cacaca;
+        color: #000000;
+        cursor: pointer;
+    }
+
+    .service:hover {
+        background-color: #cacaca;
+        color: #000000;
+        cursor: pointer;
+    }
+
+    .news:hover {
+        background-color: #cacaca;
+        color: #000000;
+        cursor: pointer;
+    }
+
+    /**********footer*********/
+
+    .Footer-Inner-List-Item {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
