@@ -175,7 +175,7 @@ main {
     text-align: center;
 }
 
-.opening {
+/* .opening {
     background: black;
     color: #ffffff;
     padding: 10px 25px;
@@ -293,7 +293,7 @@ main {
     -webkit-transform: translate(-50%, -50%);
     transform: translateY(-50%, -50%);
     text-align: center;
-}
+} */
 
 .contents_exp {
     font-size: 10px;
@@ -313,11 +313,13 @@ main {
 
 .step3_time {
     display: flex;
+    margin-top: 30px;
     padding-top: 50px;
-    padding-bottom: 10px;
+    padding-left: 150px;
+    padding-right: 150px;
     text-align: center;
 }
-
+/* 
 .step3_time p {
     font-size: 15px;
 }
@@ -402,7 +404,7 @@ main {
     text-decoration: none;
     color: #333;
     font-size: 20px;
-}
+} */
 
 .contact_box {
     padding: 2em 1em;
@@ -468,4 +470,345 @@ main {
     text-align: center;
     color: #fff;
     font-size: 16px;
+}
+
+/**********スマホ*********/
+
+@media screen and (max-width:900px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    /* 就活の良くある悩み */
+
+    .worry {
+        display: inline-block;
+        text-align: center;
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .worry img {
+        width: 50%;
+    }
+
+    .worry_text h2 {
+        font-size: 22px;
+    }
+
+    .worry_text p {
+        font-size: 16px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /* ウェルハンティング */
+
+    .wh {
+        display: inline-block;
+        text-align: center;
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    .wh img {
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .wh_text h2 {
+        font-size: 22px;
+    }
+
+    .wh_text p {
+        font-size: 16px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /* step */
+
+    .step h2 {
+        margin-top: 80px;
+        padding: 10px 5%;
+        background-color: rgb(244, 161, 161);
+        text-align: center;
+        font-size: 25px;
+    }
+
+    /* STEP1 */
+
+    .step1 {
+        padding: 25px 10%;
+    }
+
+    .step1 h3 span {
+        font-size: 20px;
+        font-weight: 400;
+        border-bottom: solid 4px #E73562;
+    }
+
+    .step1_text {
+        font-size: 12px;
+    }
+
+    .step1_box {
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .box {
+        width: 60%;
+        height: 50px;
+        padding: 10px;
+        margin: 10px auto;
+        color: black;
+        background: white;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        border-radius: 9px;
+        position: relative;
+        font-size: 12px;
+    }
+
+    .box p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translateY(-50%, -50%);
+        text-align: center;
+        width: 100%;
+    }
+
+    .step1_img {
+        text-align: center;
+        transition: all 0.6s ease 0s;
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .step1_img img {
+        width: 100%;
+    }
+
+    .step1_img:hover {
+        cursor: pointer;
+        transform: scale(1.1, 1.1);
+    }
+
+    /* step2 */
+    .step2 {
+        padding: 40px 10%;
+    }
+
+    .step2 h3 span {
+        font-size: 20px;
+        font-weight: 400;
+        border-bottom: solid 4px #E73562;
+    }
+
+    .step2_time {
+        display: flex;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .step2_time_allow {
+        background: black;
+        color: #ffffff;
+        padding: 10px 25px;
+        line-height: 20px;
+        width: 25%;
+        background:
+            linear-gradient(45deg, black 14px, black 14px),
+            linear-gradient(315deg, transparent 14px, black 14px),
+            linear-gradient(225deg, transparent 14px, black 14px),
+            linear-gradient(315deg, black 14px, black 14px);
+        background-position: bottom left, bottom right, top right, top left;
+        background-size: 50% 50%;
+        background-repeat: no-repeat;
+    }
+
+    .step2_box {
+        display: flex;
+        padding-top: 50px;
+        text-align: center;
+        padding-bottom: 50px;
+        font-size: 12px;
+    }
+
+    .step2_box1 {
+        width: 20%;
+        height: 100px;
+        padding: 10px 15px;
+        margin: auto;
+        color: black;
+        background: white;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        border-radius: 9px;
+        position: relative;
+    }
+
+    .step2_box1 p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translateY(-50%, -50%);
+        text-align: center;
+    }
+
+    .step2_box2 {
+        width: 45%;
+        height: 100px;
+        padding: 0.5em 1em;
+        margin: auto;
+        color: black;
+        background: white;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        border-radius: 9px;
+        position: relative;
+    }
+
+    .step2_box2 p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translateY(-50%, -50%);
+        text-align: center;
+    }
+
+    .step2_box3 {
+        width: 20%;
+        height: 100px;
+        padding: 0.5em 1em;
+        margin: auto;
+        color: black;
+        background: white;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        border-radius: 9px;
+        position: relative;
+    }
+
+    .step2_box3 p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translateY(-50%, -50%);
+        text-align: center;
+    }
+
+    .contents_exp {
+        font-size: 10px;
+        padding-left: 100px;
+        padding-bottom: 20px;
+    }
+
+    .step3 {
+        padding: 40px 10%;
+    }
+
+    .step3 h3 span {
+        font-size: 20px;
+        font-weight: 400;
+        border-bottom: solid 4px #E73562;
+    }
+
+    .step3_time {
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .step3_time p {
+        font-size: 15px;
+    }
+
+    .min2 {
+        padding-left: 30%;
+    }
+
+    .min3 {
+        padding-left: 40%;
+    }
+
+    .step3_band {
+        text-align: center;
+        white-space: nowrap;
+        background: black;
+        color: #ffffff;
+        padding: 10px;
+        line-height: 20px;
+        width: 100%;
+        background:
+            linear-gradient(45deg, black 14px, black 14px),
+            linear-gradient(315deg, transparent 14px, black 14px),
+            linear-gradient(225deg, transparent 14px, black 14px),
+            linear-gradient(315deg, black 14px, black 14px);
+        background-position: bottom left, bottom right, top right, top left;
+        background-size: 50% 50%;
+        background-repeat: no-repeat;
+    }
+
+    .step3_band a {
+        font-size: 2vw;
+        margin: max(10%, auto);
+    }
+
+    .step3_exp {
+        display: flex;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .step3_exp p {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .exp1 {
+        width: 28%;
+        height: 180px;
+        padding: 15px;
+        color: black;
+        background: white;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        border-radius: 9px;
+        margin-right: 5%;
+        margin-left: 3%;
+    }
+
+    .exp1 img {
+        width: 100%;
+    }
+
+    .exp2 {
+        width: 45%;
+        height: 180px;
+        padding: 15px;
+        color: black;
+        background: white;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        border-radius: 9px;
+    }
+
+    .exp2 img {
+        width: 65%;
+    }
+
+    .contact_box {
+        width: fit-content;
+    }
+
+    /************fotter*****************/
+
+    .Footer-Inner-List-Item {
+        display: block;
+        margin-bottom: 5px;
+    }
 }
