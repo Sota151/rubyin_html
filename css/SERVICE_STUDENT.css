@@ -170,8 +170,6 @@ main {
     display: flex;
     margin-top: 30px;
     padding-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
     text-align: center;
 }
 
@@ -315,8 +313,6 @@ main {
     display: flex;
     margin-top: 30px;
     padding-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
     text-align: center;
 }
 /* 
@@ -722,6 +718,7 @@ main {
         padding-top: 50px;
         padding-bottom: 10px;
         text-align: center;
+
     }
 
     .step3_time p {
